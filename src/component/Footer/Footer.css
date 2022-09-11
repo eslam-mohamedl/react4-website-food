@@ -1,0 +1,29 @@
+.footer{
+    background-color: #A82C48; 
+    color: white;
+}
+
+.footer ul li{
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.soical li{
+   
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 2px 20px !important;
+    
+}
+.soical li i{
+    color: white !important;
+   transition: all 0.3s;
+}
+.soical li i:hover{
+   transform: scale(1.2);
+   cursor: pointer;
+}
+.footer p{
+    font: 14px;
+}

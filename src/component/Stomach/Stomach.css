@@ -1,0 +1,21 @@
+:root{
+    --main-color:#A82C48;
+}
+
+.Stomach{
+    background-image: url(../../../src/assests/images/bg/bg-2.jpg);
+    height: 60vh;
+    width: 100%;
+    padding: 100px 0 ;
+    background-size: cover;
+    background-position: center center;
+}
+.Stomach h2{
+   color: var(--main-color);
+   margin-bottom: 30px;
+   margin-top: 50px;
+}
+.Stomach  span{
+    color: var(--main-color);
+
+}

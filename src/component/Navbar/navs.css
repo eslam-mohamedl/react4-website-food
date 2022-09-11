@@ -1,0 +1,51 @@
+:root{
+    --main-color:#A82C48;
+}
+
+nav{
+    background-color: transparent !important;
+    max-height: 100px;
+}  .Container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#last-nav{
+    background-color: var(--main-color) !important;
+    color: white;
+    border: none;
+    width: 140px;
+}
+#last-nav:hover{
+    cursor: pointer;
+    background: transparent;
+    border:1px solid white;
+    color: white !important;
+}
+nav a{
+   color: var(--main-color) !important;
+}
+
+.logo{
+    margin-left: -50px
+}
+@media (max-width:550px) {
+    .logo{
+        margin-left: -20px;
+    width: 98px;
+
+    }
+    nav{
+        background-color: transparent !important;
+        max-height: 100vh;
+    }  
+    .navbar-light .navbar-toggler {
+        
+        width: 60px;
+        background: transparent !important;
+        color: #333 !important;
+    }
+    #last-nav {
+        margin-top: 50px;
+    }
+}
